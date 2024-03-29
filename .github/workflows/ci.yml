@@ -31,8 +31,9 @@ jobs:
     - name: Show default environment variables
       run: |
           echo "This is to test"
-          #echo "${{ secrets.DOCKER_USERNAME }}"
+          echo "${{ secrets.DOCKER_USERNAME }}"
           echo "${{ secrets.DOCKER_PASSWORD }}"
+          echo "after echoing"
         
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4.0
