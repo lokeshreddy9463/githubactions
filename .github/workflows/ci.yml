@@ -39,7 +39,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4.0
       with:
         image: lokesh9463/demo-app
-        registry: githubaction
+        registry: lokesh9463/githubaction
         username: "lokesh9463" #${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
          
