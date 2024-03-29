@@ -28,9 +28,9 @@ jobs:
     - name: Build with Gradle
       run: |
         ./gradlew build
-        sh pwd
-        sh "after pwd"
-        sh ls -a
+        pwd
+        echo "after pwd"
+        ls -a
 
     - name: Show default environment variables
       run: |
