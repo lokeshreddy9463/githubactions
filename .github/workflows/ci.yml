@@ -40,6 +40,6 @@ jobs:
       with:
         image: lokesh9463/demo-app
         registry: githubaction
-        username: ${{ secrets.DOCKER_USERNAME }}
+        username: "lokesh9463" #${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
          
